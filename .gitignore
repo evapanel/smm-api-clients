@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 node_modules/
 vendor/
+*.egg-info/
+build/
+dist/

@@ -1,0 +1,5 @@
+# Keep the Composer download small: PHP users only need composer.json, php/src and the docs.
+/python export-ignore
+/node export-ignore
+/.gitignore export-ignore
+/.gitattributes export-ignore

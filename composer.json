@@ -5,6 +5,18 @@
     "license": "MIT",
     "keywords": ["smm", "smm panel", "smm api", "smm panel api", "reseller"],
     "homepage": "https://evapanel.com/blog/smm-panel-api-explained",
+    "authors": [
+        {
+            "name": "Eva Panel",
+            "email": "support@evapanel.com",
+            "homepage": "https://evapanel.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/evapanel/smm-api-clients/issues",
+        "source": "https://github.com/evapanel/smm-api-clients",
+        "docs": "https://evapanel.com/blog/smm-panel-api-explained"
+    },
     "require": {
         "php": ">=8.1",
         "ext-curl": "*",
@@ -12,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "EvaPanel\\SmmApi\\": "src/"
+            "EvaPanel\\SmmApi\\": "php/src/"
         }
     }
 }

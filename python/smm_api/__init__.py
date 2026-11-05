@@ -22,7 +22,7 @@ import urllib.request
 from typing import Any, Iterable
 
 __all__ = ["SmmApi", "SmmApiError"]
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 
 class SmmApiError(Exception):

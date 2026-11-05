@@ -4,15 +4,27 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "smm-panel-api"
-version = "1.0.0"
+version = "1.0.1"
 description = "A small client for the standard SMM panel API (v2): services, orders, status, balance, refill and cancel."
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.8"
+authors = [{ name = "Eva Panel", email = "support@evapanel.com" }]
 keywords = ["smm", "smm panel", "smm api", "smm panel api", "reseller"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
 
 [project.urls]
+Homepage = "https://github.com/evapanel/smm-api-clients"
 Guide = "https://evapanel.com/blog/smm-panel-api-explained"
+Issues = "https://github.com/evapanel/smm-api-clients/issues"
 
 [tool.setuptools]
 packages = ["smm_api"]

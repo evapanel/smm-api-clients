@@ -5,11 +5,11 @@ format almost every SMM panel and provider uses. Order services, follow orders,
 check your balance, and ask for refills and cancellations from your own code,
 bots or panels.
 
-| Language | Folder | Needs |
-| --- | --- | --- |
-| PHP | [`php/`](php) | PHP 8.1+, curl |
-| Python | [`python/`](python) | Python 3.8+ (standard library only) |
-| Node.js | [`node/`](node) | Node 18+ (built-in fetch) |
+| Language | Install | Folder | Needs |
+| --- | --- | --- | --- |
+| PHP | `composer require evapanel/smm-api-client` | [`php/`](php) | PHP 8.1+, curl |
+| Python | `pip install smm-panel-api` | [`python/`](python) | Python 3.8+ (standard library only) |
+| Node.js | `npm install smm-panel-api` | [`node/`](node) | Node 18+ (built-in fetch) |
 
 New to the SMM API? Read **[The SMM Panel API Explained](https://evapanel.com/blog/smm-panel-api-explained)**:
 every action, with example requests and answers.
