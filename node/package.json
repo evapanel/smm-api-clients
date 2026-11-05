@@ -1,0 +1,13 @@
+{
+    "name": "smm-panel-api",
+    "version": "1.0.0",
+    "description": "A small client for the standard SMM panel API (v2): services, orders, status, balance, refill and cancel.",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "license": "MIT",
+    "engines": {
+        "node": ">=18"
+    },
+    "keywords": ["smm", "smm panel", "smm api", "smm panel api", "reseller"],
+    "homepage": "https://evapanel.com/blog/smm-panel-api-explained"
+}
